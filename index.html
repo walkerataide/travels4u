@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- carregar o arquivo de estilo css na página -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Travels4u</title>
+  </head>
+  <body>
+    <header>
+      <h1>Travels4u - Seu Agente de Viagens Inteligente!</h1>
+    </header>
+    <main>
+      <section>
+        <input
+          type="text"
+          placeholder="Digite sua Viagem dos Sonhos"
+          id="campo-pesquisa"
+        />
+        <button id="btn-pesquisar-roteiro" onclick="pesquisar()">
+          Pesquisar
+        </button>
+      </section>
+      <section class="resultados-pesquisa" id="resultados-pesquisa"></section>
+    </main>
+    <footer>
+      <p>2024 - walkerataide.dev todos os direitos reservados</p>
+      <p>Entre em contato pelo email contato@travels4u.com.br</p>
+    </footer>
+
+    <!--Carregar o javascript no final para um carregamento mais rápido da página-->
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
